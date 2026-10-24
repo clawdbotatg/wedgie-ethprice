@@ -36,12 +36,12 @@ def draw(d, got):
     p, cb, eth, base = got
     d.fill(ui.WHITE)
     ui.band(d)
-    ui.say(d, "ETH", 30, ui.MUTED, 2)
+    ui.say(d, "ETH", 46, ui.MUTED, 2)
     s = dollars(p)
-    ui.say(d, s, 64, ui.INK, 3 if len(s) <= 10 else 2)
-    ui.say(d, "Coinbase " + dollars(cb), 122, ui.GREEN_D)
-    ui.say(d, "Ethereum #" + eth, 150, ui.MUTED)
-    ui.say(d, "Base #" + base, 166, ui.MUTED)
+    ui.say(d, s, 80, ui.INK, 3 if len(s) <= 10 else 2)
+    ui.say(d, "Coinbase " + dollars(cb), 132, ui.GREEN_D)
+    ui.say(d, "Ethereum #" + eth, 162, ui.MUTED)
+    ui.say(d, "Base #" + base, 178, ui.MUTED)
     ui.say(d, "{g} now", 222, ui.MUTED)
     d.show()
 
