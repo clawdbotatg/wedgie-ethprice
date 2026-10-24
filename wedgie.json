@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "mod": "ethprice",
+      "name": "ETH Price",
+      "about": "The price of ETH and the newest Ethereum and Base blocks, every 30 seconds. Gets the internet from its page on wedgie.dev: keep that tab open.",
+      "files": ["ethprice.py"],
+      "entry": "run",
+      "fw": "0.3.61",
+      "net": ["chain", "api.coinbase.com"],
+      "label": "#627eea",
+      "icon": ["............", ".....kk.....", "....kbbk....", "...kbbbbk...", "..kbbbbbbk..", ".kbbbbbbbbk.", ".kkbbbbbbkk.", "..kkbbbbkk..", "...kkbbkk...", "....kkkk....", ".....kk.....", "............"]
+    }
+  ]
+}
