@@ -8,7 +8,8 @@ module (firmware 0.3.61+). The sites it may reach are listed in `wedgie.json` un
 
 - `"chain"`: read-only chain calls and the ETH price. First wedgie.dev's price (under 1 s, grey: it could be
   changed on the way), then Chainlink's, read over the wedgie's own TLS (firmware 0.3.70+: nobody in between can
-  change it), then Ethereum's newest block the same way, Base's from wedgie.dev.
+  change it), then Ethereum's newest block the same way (firmware 0.3.74+: on the same connection, ~1 s), Base's
+  from wedgie.dev.
 
 The screen: the price, big (grey till Chainlink's is in), and a check under it as each source confirms it:
 Chainlink, then Coinbase. Down: a table of every number with its seconds and, under it (firmware 0.3.72+), every
